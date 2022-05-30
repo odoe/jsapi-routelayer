@@ -90,7 +90,7 @@ async function load() {
     map
   });
 
-  view.ui.add(element, 'bottom-right');
+  view.ui.add(element, 'top-right');
 
   await Promise.all([view.when(), routeLayer.load()]);
 
